@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ThreadExample</string>
+    <string name="title_download_button">Download</string>
+    <string-array name="urls">
+        <item >Image 01</item>
+        <item >Image 02</item>
+        <item >Image 03</item>
+        <item >Image 04</item>
+        <item >Image 05</item>
+        <item >Image 06</item>
+    </string-array>
+
+    <string-array name="image_urls">
+        <item >http://images.all-free-download.com/images/graphiclarge/daisy_pollen_flower_220533.jpg</item>
+        <item >http://images.all-free-download.com/images/graphiclarge/daisy_pollen_flower_220533.jpg</item>
+        <item >http://images.all-free-download.com/images/graphiclarge/daisy_pollen_flower_220533.jpg</item>
+        <item >http://images.all-free-download.com/images/graphiclarge/daisy_pollen_flower_220533.jpg</item>
+        <item >http://images.all-free-download.com/images/graphiclarge/daisy_pollen_flower_220533.jpg</item>
+        <item >http://images.all-free-download.com/images/graphiclarge/daisy_pollen_flower_220533.jpg</item>
+    </string-array>
+</resources>

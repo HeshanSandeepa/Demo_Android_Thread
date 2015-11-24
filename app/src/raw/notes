@@ -1,0 +1,3 @@
+01. There are two ways to create thread.
+    1. implement runnable
+    2. extend from class Thread

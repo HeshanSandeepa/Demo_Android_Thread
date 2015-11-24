@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_weight="0.15">
+
+        <EditText
+            android:id="@+id/edit_text_url"
+            android:textSize="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_weight="0.15">
+
+        <Button
+            android:id="@+id/button_download"
+            android:text="@string/title_download_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_weight="0.15">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="match_parent"
+            android:indeterminate="true"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_weight="0.55">
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:entries="@array/urls"
+            android:layout_height="match_parent">
+        </ListView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
